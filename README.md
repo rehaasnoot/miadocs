@@ -1,4 +1,4 @@
 # miadocs
 
-see: https://miadocs.github.com
+see: https://rehaasnoot.github.io/miadocs/
 
