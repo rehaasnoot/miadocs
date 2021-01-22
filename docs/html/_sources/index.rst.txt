@@ -1,7 +1,8 @@
 Musical Instrument Animator
 ===========================
 
-**MIA** is sofware that can forge everything necessary to animate performing musical instruments in `Blender`_. `MIA`_ is designed to animate any character playing any song on any instrument.
+**MIA** is software that automates the heavy-lifting necessary to animate performing musical instruments in `Blender`_. `MIA`_ is designed to animate any character playing any song on any instrument.
+And by encoding voicing in a `MIDI`_ file, `MIA`_ also supports singing.
 
 To use **MIA** in `Blender`_
 ----------------------------
@@ -41,12 +42,22 @@ To use **MIA** in `Blender`_
 Make Video
 ~~~~~~~~~~
 
-Add an HDRI, a few tweeks, a render pass and create a video like this: `Bach Cello Suite #1 Prelude`_
+Add an HDRI, a few tweaks, a render pass, and create a video like this: `Bach Cello Suite #1 Prelude`_
 
 Repeat for the whole band!
 ++++++++++++++++++++++++++
 
-Assemble indiviual performances into videos like this:  `John McLane Rocks`_
+Assemble individual performances into a video like this:  `John McLane Rocks`_
+
+More Development...
+###################
+
+Further development to automate animation of character dancing is underway.
+
+Download...
+^^^^^^^^^^^
+
+Release date of `MIA`_ to be announced.
 
 
 MIA
@@ -61,6 +72,5 @@ MIA
 .. _MIA: https://youtu.be/X9k7mWfwWB4
 .. _Bach Cello Suite #1 Prelude: https://www.youtube.com/watch?v=3m8d7hx5B7c
 .. _John McLane Rocks: https://www.youtube.com/watch?v=-gweCKr9jrI
-
-
+.. _MIDI: https://www.midi.org/
 
