@@ -1,0 +1,577 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tools package &#8212; MIA 3.0 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="tools" href="modules.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="tools"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MIA 3.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" accesskey="U">tools</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tools package</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="tools-package">
+<h1>tools package<a class="headerlink" href="#tools-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-tools.animate">
+<span id="tools-animate-module"></span><h2>tools.animate module<a class="headerlink" href="#module-tools.animate" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="tools.animate.main">
+<code class="sig-prename descclassname">tools.animate.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.animate.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.animate.performance">
+<code class="sig-prename descclassname">tools.animate.</code><code class="sig-name descname">performance</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">playerName</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">instrumentName</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">instrumentTrackIds</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">voxTrackId</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.animate.performance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Top-level function designed to be run from within a blender text window.</p>
+<p>Will detect a player, instrument and data-file, then execute MIA to produce the animation.</p>
+<dl class="simple">
+<dt>playerName<span class="classifier">str, optional</span></dt><dd><p>The name of the player model (default is None)</p>
+</dd>
+<dt>instrumentName<span class="classifier">str, optional</span></dt><dd><p>The name of the instrument model (default is None)</p>
+</dd>
+<dt>instrumentTrackIds<span class="classifier">int | str | ‘[int,int,..]’ , optional</span></dt><dd><dl class="simple">
+<dt>Override the TrackId custom property of the instrument </dt><dd><p>to indicate which tracks are to be played (default is None)</p>
+</dd>
+</dl>
+</dd>
+<dt>voxTrackId<span class="classifier">int , optional</span></dt><dd><dl class="simple">
+<dt>Override the TrackId custom property of the player</dt><dd><p>to indicate which tracks are to be sung. (default is None)</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>TVVReturnCodes</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-tools.mido_dump">
+<span id="tools-mido-dump-module"></span><h2>tools.mido_dump module<a class="headerlink" href="#module-tools.mido_dump" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="tools.mido_dump.dumpAltoSaxTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpAltoSaxTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpAltoSaxTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpAnthem">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpAnthem</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpAnthem" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBachCelloSuiteNo1">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBachCelloSuiteNo1</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBachCelloSuiteNo1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBachMinuet">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBachMinuet</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBachMinuet" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBassGScale">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBassGScale</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBassGScale" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBassTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBassTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBassTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBeccaDoesMozarat">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBeccaDoesMozarat</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBeccaDoesMozarat" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBeccaDoesMozart">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBeccaDoesMozart</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBeccaDoesMozart" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBeethoven_FurElise">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBeethoven_FurElise</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBeethoven_FurElise" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBeethoven_Minueto_Op31_No3">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBeethoven_Minueto_Op31_No3</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBeethoven_Minueto_Op31_No3" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBeethoven_Variations_Op18_No5_Andante_Cantabile">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBeethoven_Variations_Op18_No5_Andante_Cantabile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBeethoven_Variations_Op18_No5_Andante_Cantabile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBelieveInMe">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBelieveInMe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBelieveInMe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpBetterThanYou">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpBetterThanYou</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpBetterThanYou" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpCGLoY">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpCGLoY</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpCGLoY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpCelloTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpCelloTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpCelloTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpChordTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpChordTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpChordTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpCradle">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpCradle</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpCradle" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpDanceTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpDanceTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpDanceTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpDrumBlackDog">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpDrumBlackDog</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpDrumBlackDog" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpDrumTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpDrumTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpDrumTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpEmbers">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpEmbers</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpEmbers" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpFurElise">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpFurElise</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpFurElise" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpGuitarTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpGuitarTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpGuitarTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpHeartOfGlassV2">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpHeartOfGlassV2</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpHeartOfGlassV2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpHottFunn">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpHottFunn</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpHottFunn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpHumanism">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpHumanism</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpHumanism" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpIDontKnow">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpIDontKnow</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpIDontKnow" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpImBetterThanYou">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpImBetterThanYou</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpImBetterThanYou" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpInhabitants">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpInhabitants</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpInhabitants" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpJamOne">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpJamOne</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpJamOne" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpJohnMcLaneRocks">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpJohnMcLaneRocks</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpJohnMcLaneRocks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpKeysFromHeaven">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpKeysFromHeaven</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpKeysFromHeaven" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpMIDIFile">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpMIDIFile</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpMIDIFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpManWhoLovesYou">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpManWhoLovesYou</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpManWhoLovesYou" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpMonsterMash">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpMonsterMash</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpMonsterMash" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpMozart_311_1">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpMozart_311_1</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpMozart_311_1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpNewIDftBecca">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpNewIDftBecca</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpNewIDftBecca" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpOphelia">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpOphelia</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpOphelia" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpPerfectCrime">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpPerfectCrime</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpPerfectCrime" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpPianoTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpPianoTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpPianoTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpPrefectCrime">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpPrefectCrime</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpPrefectCrime" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpRunawayBride">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpRunawayBride</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpRunawayBride" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpSatisfyYou">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpSatisfyYou</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpSatisfyYou" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpSilentNight">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpSilentNight</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpSilentNight" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpSnowblind">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpSnowblind</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpSnowblind" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpStephanie">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpStephanie</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpStephanie" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpSunnyDayInBrooklyn">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpSunnyDayInBrooklyn</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpSunnyDayInBrooklyn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTVVDrumTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTVVDrumTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTVVDrumTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTVVDrums_Crash">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTVVDrums_Crash</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTVVDrums_Crash" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTVVDrums_HiHat">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTVVDrums_HiHat</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTVVDrums_HiHat" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTVVDrums_Ride">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTVVDrums_Ride</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTVVDrums_Ride" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTVVDrums_Snare">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTVVDrums_Snare</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTVVDrums_Snare" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTVVDrums_Splash">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTVVDrums_Splash</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTVVDrums_Splash" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpThatAintMe">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpThatAintMe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpThatAintMe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTromboneTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTromboneTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTromboneTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpTrumpetTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpTrumpetTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpTrumpetTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpUseMeV2">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpUseMeV2</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpUseMeV2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpVerticalLimit">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpVerticalLimit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpVerticalLimit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpViolinTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpViolinTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpViolinTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpVoiceTest">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpVoiceTest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpVoiceTest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.dumpWhyWereHere">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">dumpWhyWereHere</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.dumpWhyWereHere" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="tools.mido_dump.main">
+<code class="sig-prename descclassname">tools.mido_dump.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.mido_dump.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-tools.tvvrefactor">
+<span id="tools-tvvrefactor-module"></span><h2>tools.tvvrefactor module<a class="headerlink" href="#module-tools.tvvrefactor" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="tools.tvvrefactor.TVVRefactor">
+<em class="property">class </em><code class="sig-prename descclassname">tools.tvvrefactor.</code><code class="sig-name descname">TVVRefactor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parms</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">blender.tvvbpybase.BPYBase</span></code></p>
+<p>Used within Blender to refactor object names</p>
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactor4PBass">
+<code class="sig-name descname">refactor4PBass</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">basename</span></em>, <em class="sig-param"><span class="n">newName</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactor4PBass" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactor4String">
+<code class="sig-name descname">refactor4String</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">basename</span></em>, <em class="sig-param"><span class="n">newName</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactor4String" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorAltoSaxToTenorSax">
+<code class="sig-name descname">refactorAltoSaxToTenorSax</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorAltoSaxToTenorSax" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorAxe">
+<code class="sig-name descname">refactorAxe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">basename</span></em>, <em class="sig-param"><span class="n">newName</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorAxe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorConstraintNames">
+<code class="sig-name descname">refactorConstraintNames</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">orig</span></em>, <em class="sig-param"><span class="n">rename</span></em>, <em class="sig-param"><span class="n">itemList</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorConstraintNames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorFretXString">
+<code class="sig-name descname">refactorFretXString</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">flip</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorFretXString" title="Permalink to this definition">¶</a></dt>
+<dd><p>switch names of objects of the form: Instrument.FretXString.string-id.fret-id or  Instrument.FretXStringstring-id.fret-id  to  Instrument.FretXString.fret-id.string-id</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorGuitar">
+<code class="sig-name descname">refactorGuitar</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">newName</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorGuitar" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorHammondB3Keyboard">
+<code class="sig-name descname">refactorHammondB3Keyboard</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorHammondB3Keyboard" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorInstrument">
+<code class="sig-name descname">refactorInstrument</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">newInstrumentName</span></em>, <em class="sig-param"><span class="n">instrumentName</span></em>, <em class="sig-param"><span class="n">componentName</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">idx</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorInstrument" title="Permalink to this definition">¶</a></dt>
+<dd><p>for all objects of the form instrumentName.componentName.idx</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorJohnMcClaneRocks">
+<code class="sig-name descname">refactorJohnMcClaneRocks</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorJohnMcClaneRocks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorKeyHandPoint">
+<code class="sig-name descname">refactorKeyHandPoint</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorKeyHandPoint" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorMartinForClassical">
+<code class="sig-name descname">refactorMartinForClassical</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorMartinForClassical" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorName">
+<code class="sig-name descname">refactorName</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">origName</span></em>, <em class="sig-param"><span class="n">newName</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorNames">
+<code class="sig-name descname">refactorNames</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">orig</span></em>, <em class="sig-param"><span class="n">rename</span></em>, <em class="sig-param"><span class="n">objectNames</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorNames" title="Permalink to this definition">¶</a></dt>
+<dd><p>for all objects in objectNames replace orig with rename</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorTrombone">
+<code class="sig-name descname">refactorTrombone</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">newName</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorTrombone" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorTrumpet">
+<code class="sig-name descname">refactorTrumpet</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">newName</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorTrumpet" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorVibrophone">
+<code class="sig-name descname">refactorVibrophone</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorVibrophone" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.refactorViolinForCello">
+<code class="sig-name descname">refactorViolinForCello</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.refactorViolinForCello" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="tools.tvvrefactor.TVVRefactor.toIndexString">
+<code class="sig-name descname">toIndexString</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.TVVRefactor.toIndexString" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="tools.tvvrefactor.main">
+<code class="sig-prename descclassname">tools.tvvrefactor.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tools.tvvrefactor.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-tools">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-tools" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">tools package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-tools.animate">tools.animate module</a></li>
+<li><a class="reference internal" href="#module-tools.mido_dump">tools.mido_dump module</a></li>
+<li><a class="reference internal" href="#module-tools.tvvrefactor">tools.tvvrefactor module</a></li>
+<li><a class="reference internal" href="#module-tools">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="modules.html"
+                        title="previous chapter">tools</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/tools.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="tools"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">MIA 3.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" >tools</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tools package</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Richard E. Haasnoot, Jr..
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>

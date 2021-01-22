@@ -1,0 +1,37 @@
+tools package
+=============
+
+Submodules
+----------
+
+tools.animate module
+--------------------
+
+.. automodule:: tools.animate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+tools.mido\_dump module
+-----------------------
+
+.. automodule:: tools.mido_dump
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+tools.tvvrefactor module
+------------------------
+
+.. automodule:: tools.tvvrefactor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
